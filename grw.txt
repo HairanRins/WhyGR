@@ -1,0 +1,33 @@
+Pourquoi Go et/ou Rust 
+* Go et Rust sont deux langages de programmation modernes, compilés et statiques 
+* Ils partagent certains objectifs communs, tels que la performance et la concurrence
+
+Go : Simplicité et Concurrence
+* Philosophie : Go a été conçu pour être simple, efficace et facile à apprendre. Il vise à simplifier la programmation concurrente et distribuée. 
+* Caractéristiques clés :
+- Typage fort et statique : Assure la sécurité et la fiabilité du code.
+- Garbage collector : Gère automatiquement la mémoire, ce qui réduit le risque de fuites de mémoire.
+- Concurrence native : Les goroutines et les canaux permettent une programmation concurrente facile et efficace.
+- Compilation rapide : Les projets Go sont généralement compilés rapidement, ce qui accélère les cycles de développement.
+- Standard library riche : Fournit un large éventail de fonctionnalités pour la programmation réseau, la manipulation de texte, etc.
+
+Rust : Sécurité et Contrôle 
+* Philosophie : Rust met l'accent sur la sécurité de la mémoire et la performance. Il permet aux développeurs d'écrire du code système de bas niveau tout en garantissant l'absence de bugs courants comme les déréférencements de pointeurs nuls ou les dépassements de tampon.
+* Caractéristiques clés :
+   - Système de types puissant : Inclut des fonctionnalités comme le borrowing, l'ownership et la lifetime pour garantir la sécurité de la mémoire.
+    - Absence de garbage collector : Le développeur a un contrôle total sur la mémoire, ce qui permet d'optimiser les performances.
+    - Pattern matching : Facilite l'écriture de code concis et expressif.
+    - Macros : Permettent d'étendre le langage et de créer des DSL (Domain Specific Language).
+    - Compilation rapide : Bien que le système de types de Rust soit complexe, le compilateur est très optimisé et la compilation est généralement rapide.
+    
+Go pour du :
+   - Développement backend rapide et scalable.
+   - Microservices.
+   - Outils de développement et déploiement.
+   - Projets où la simplicité et la rapidité de développement sont prioritaires.
+
+Rust pour du :
+    - Projets nécessitant des performances extrêmes (jeux vidéo, systèmes embarqués).
+    - Développement de systèmes d'exploitation et de compilateurs.
+    - Projets où la sécurité de la mémoire est critique.
+    - Lorsque vous souhaitez un contrôle fin sur la mémoire et les ressources du système.
